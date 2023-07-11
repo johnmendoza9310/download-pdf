@@ -1,0 +1,6 @@
+<div class="cont">
+  <button [disabled]="loading" (click)="downloadPdf()">
+    DESCARGAR PDF
+  </button>
+  <div *ngIf="loading">cargando</div>
+</div>

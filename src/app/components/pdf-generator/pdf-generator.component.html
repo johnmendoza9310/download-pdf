@@ -1,0 +1,124 @@
+<div *ngIf="hide" id="wrapper-pdf" #wrapperPdf>
+  <div class="grid-container-client-id">
+    <div class="title-client-id">IDENTIFICACIÓN DEL CLIENTE</div>
+
+    <div class="row-2">
+      <div class="child">
+        <STRong>Gerente comercial:</STRong>
+        <p>{{ lorem }}</p>
+      </div>
+      <div class="child">
+        <strong>Nombre del cliente:</strong>
+        <p>jhon alexander silva martinez</p>
+      </div>
+      <div class="child">
+        <strong>Tipo de documento:</strong>
+        <p>Cédula de ciudadania</p>
+      </div>
+      <div class="child">
+        <strong>Número de documento:</strong>
+        <p>800800836</p>
+      </div>
+    </div>
+
+    <div class="row-3">
+      <div class="child">
+        <strong>Cupo total:</strong>
+        <p>$ 12.000.000.000</p>
+      </div>
+      <div class="child">
+        <strong>Plazo autorizado (Meses):</strong>
+        <p>24</p>
+      </div>
+      <div class="child">
+        <strong>Período de gracia (Meses):</strong>
+        <p>6</p>
+      </div>
+      <div class="child">
+        <strong>Vigencia del acta:</strong>
+        <p>2023-12-31</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-container-simulate-line">
+    <div class="title-simulate-line">LÍNEA SIMULADA PARA EL CLIENTE</div>
+    <div class="w-100">
+      <strong>Nombre</strong>
+      <p>CRÉDITO AGROPECUARIO Y RURAL SIF</p>
+    </div>
+
+    <div class="row-2">
+      <div class="w-12 child">
+        <strong>Entidad</strong>
+        <p>Finagro</p>
+      </div>
+      <div class="w-12 child">
+        <strong>Monto disponible (COP)</strong>
+        <p>$ 20.000.000</p>
+      </div>
+      <div class="w-12 child">
+        <strong>Tipo de línea</strong>
+        <p>Sustituta</p>
+      </div>
+      <div class="w-20 child">
+        <strong>Tipo de tasa</strong>
+        <p>IBR, DTF, IBR, DTF,IBR, DTF,</p>
+      </div>
+      <div class="w-12 child">
+        <strong>Tasa de redescuento (%)</strong>
+        <p>null</p>
+      </div>
+      <div class="w-12 child"><strong>Periodo d egracia (Meses)</strong></div>
+      <div class="w-20 child">
+        <strong>Destino</strong>
+        <p>Capital de trabajo, sustitución de pasivos, modernización</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-container-client-id">
+    <div class="title-client-id">COTIZADOR DE CRÉDITO</div>
+
+    <div class="row-2">
+      <div class="child">
+        <strong>Monto solicitado:</strong>
+        <p>123</p>
+      </div>
+      <div class="child">
+        <strong>NPlazos (Meses):</strong>
+        <p>12</p>
+      </div>
+      <div class="child">
+        <strong>Periodo de gracia:</strong>
+        <p>0</p>
+      </div>
+      <div class="child">
+        <strong>Cuota capital:</strong>
+        <p>$10,25</p>
+      </div>
+    </div>
+
+    <div class="row-3">
+      <div class="child">
+        <strong>Amortización a capital:</strong>
+        <p>Mensual</p>
+      </div>
+      <div class="child">
+        <strong>Amortización de interés:</strong>
+        <p>NMV</p>
+      </div>
+      <div class="child">
+        <strong>Tipo de tasa:</strong>
+        <p>IBR, DTF, TASA FIJA, IPC, LIBOR,SOFR</p>
+      </div>
+      <div class="child">
+        <strong>Spread Comercial (%):</strong>
+        <p>1</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div *ngIf="loading" class="loading">CARGANDO...</div> -->
+<!-- <button (click)="downloadPDF()">GENERAR PDF</button> -->
